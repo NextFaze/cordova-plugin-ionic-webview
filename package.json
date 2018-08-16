@@ -1,28 +1,55 @@
 {
-  "name": "cordova-plugin-ionic-webview",
-  "version": "1.1.16",
-  "description": "The official Ionic's WKWebView Engine Plugin",
-  "main": "index.js",
-  "scripts": {
-    "sync_plugin_xml": "sync-cordova-xml package.json plugin.xml --output=plugin.xml",
-    "version": "npm run sync_plugin_xml && git add plugin.xml",
-    "deploy": "np --yolo"
-  },
-  "repository": {
+  "_from": "git+https://github.com/ghenry22/cordova-plugin-ionic-webview.git",
+  "_id": "cordova-plugin-ionic-webview@1.1.16-dev",
+  "_inBundle": false,
+  "_integrity": "sha1-oG9PjQo62sT/YWydrYCWmilDUb8=",
+  "_location": "/cordova-plugin-ionic-webview",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "https://github.com/ionic-team/cordova-plugin-ionic-webview"
+    "raw": "cordova-plugin-ionic-webview@git+https://github.com/ghenry22/cordova-plugin-ionic-webview.git",
+    "name": "cordova-plugin-ionic-webview",
+    "escapedName": "cordova-plugin-ionic-webview",
+    "rawSpec": "git+https://github.com/ghenry22/cordova-plugin-ionic-webview.git",
+    "saveSpec": "git+https://github.com/ghenry22/cordova-plugin-ionic-webview.git",
+    "fetchSpec": "https://github.com/ghenry22/cordova-plugin-ionic-webview.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ghenry22/cordova-plugin-ionic-webview.git#10326381f6ad9c31f8037b6951f3c51335d0f76d",
+  "_spec": "cordova-plugin-ionic-webview@git+https://github.com/ghenry22/cordova-plugin-ionic-webview.git",
+  "_where": "/Users/mmarner/code/careapp/careapp-ionic",
+  "author": {
+    "name": "Ionic Team"
   },
   "bugs": {
     "url": "https://github.com/ionic-team/cordova-plugin-ionic-webview/issues"
   },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The official Ionic's WKWebView Engine Plugin",
+  "devDependencies": {
+    "np": "^2.16.0",
+    "sync-cordova-xml": "^0.4.0"
+  },
+  "homepage": "https://github.com/ionic-team/cordova-plugin-ionic-webview#readme",
   "keywords": [
     "cordova",
     "wkwebview"
   ],
-  "author": "Ionic Team",
   "license": "Apache-2.0",
-  "devDependencies": {
-    "np": "^2.16.0",
-    "sync-cordova-xml": "^0.4.0"
-  }
+  "main": "index.js",
+  "name": "cordova-plugin-ionic-webview",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionic-team/cordova-plugin-ionic-webview.git"
+  },
+  "scripts": {
+    "deploy": "np --yolo",
+    "sync_plugin_xml": "sync-cordova-xml package.json plugin.xml --output=plugin.xml",
+    "version": "npm run sync_plugin_xml && git add plugin.xml"
+  },
+  "version": "1.1.16-dev"
 }
